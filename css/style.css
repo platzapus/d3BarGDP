@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #250144;
+  background-size: 12px 12px;
+}
+
+.graph {
+  width: 1100;
+  margin: 0 auto;
+  border: 2px solid #939;
+  background: #fff;
+  opacity: 0.9;
+}
+
+.graph rect {
+  fill: #629;
+}
+
+.xAxis path, line {
+  fill: none;
+  stroke: #629;
+  stroke-width: 1px;
+}
+
+.yAxis path {
+  fill: none;
+  stroke: #629;
+  stroke-width: 1px;
+}
+
+.yAxis line {
+  fill: none;
+  stroke: #629;
+  stroke-width: 1px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 3px 5px 3px 5px;
+  font: 1em sans-serif;
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: #a5d;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.container {
+  width: 1100;
+  display: flex;
+  align-items: center;
+}
+
+.yAxText {
+  font-size: 20px;
+}
